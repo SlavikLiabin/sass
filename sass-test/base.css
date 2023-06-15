@@ -35,7 +35,7 @@ main {
 
 .button {
   color: #d41b1b;
-  background-color: white;
+  background-color: #000;
   border: 2px solid #28f028;
   padding: 7px 15px;
   border-radius: 5px;
@@ -43,10 +43,26 @@ main {
 
 .button-red {
   color: white;
-  background-color: red; }
+  background-color: red;
+  border: 2px solid #28f028;
+  padding: 7px 15px;
+  border-radius: 5px;
+  cursor: pointer; }
 
 .button-green {
   color: white;
-  background-color: green; }
+  background-color: green;
+  border: 2px solid #28f028;
+  padding: 7px 15px;
+  border-radius: 5px;
+  cursor: pointer; }
+
+.button-blue {
+  color: white;
+  background-color: blue;
+  border: 2px solid #28f028;
+  padding: 7px 15px;
+  border-radius: 5px;
+  cursor: pointer; }
 
 /*# sourceMappingURL=base.css.map */

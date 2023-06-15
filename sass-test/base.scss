@@ -48,21 +48,27 @@ main {
   }
 }
 
-.button {
-  color: $base_black;
-  background-color: white;
+@mixin button($color, $background) {
+  color: $color;
+  background-color: $background;
   border: $base-border;
-  padding: 7px 15px;
+  padding: 3px+4px 10px+5px;
   border-radius: 5px;
   cursor: pointer;
 }
 
+.button{
+  @include button($base-black, #000);
+}
+
 .button-red {
-  color: white;
-  background-color: red;
+  @include button(white,red);
 }
 
 .button-green {
-  color: white;
-  background-color: green;
+  @include button(white,green);
+}
+
+.button-blue {
+  @include button(white,blue);
 }
