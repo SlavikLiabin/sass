@@ -1,0 +1,8 @@
+@import "../variables.scss";
+
+table {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  border: $base-border;
+}
